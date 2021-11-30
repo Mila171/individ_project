@@ -1,3 +1,73 @@
 <resources>
-    <string name="app_name">Individ_project</string>
+    <string name="app_name">My Furniture</string>
+    <string name="Splash_Screen_1">My Furniture</string>
+    <string name="Splash_Screen_2_2">Your perfect interior design</string>
+
+
+    <string name="Continue">Continue</string>
+
+    <string name="Login_page">Login to find thousand best Furniture</string>
+    <string name="Login_page2">Email</string>
+    <string name="Login_page3">Password</string>
+    <string name="Login_page4">Login</string>
+    <string name="Login_page5">Or login with</string>
+    <string name="Login_page6">Google</string>
+    <string name="Login_page7">Don’t have an account ?</string>
+    <string name="Login_page8">Sign Up</string>
+
+    <string name="Signup_page">Create My Furniture</string>
+    <string name="Signup_page2">Create account to find best Furniture</string>
+    <string name="Signup_page3">Full Name</string>
+    <string name="Signup_page4">Phone Number</string>
+    <string name="Signup_page5">Retype Password</string>
+    <string name="Signup_page6">Have an account ?</string>
+    <string name="Signup_page7">Login Now</string>
+
+    <string name="Home">Your partner interior design</string>
+    <string name="Home1">Try search “Computer Table”</string>
+    <string name="Home2">Chair</string>
+    <string name="Home3">Table</string>
+    <string name="Home4">Bed</string>
+    <string name="Home5">Carpet</string>
+    <string name="Home6">Sofa</string>
+    <string name="Home7">Best for you</string>
+    <string name="product_name">Lorem Chair</string>
+    <string name="product_grade">4,9</string>
+    <string name="product_price">$120.00</string>
+    <string name="product_place">Relax, Comfortable</string>
+    <string name="product_Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit in nunc, et sit velit at aliquam tortor. Tristique ut ante nec nullam urna. Ultrices ac lorem rutrum purus. Nunc.</string>
+    <string name="Description">Description</string>
+    <string name="Color">Color</string>
+    <string name="Add_to_cart">Add to cart</string>
+
+    <string name="Discount">Discount</string>
+
+    <string name="Checkout">Selected Item</string>
+    <string name="Checkout2">Rocking Chair</string>
+    <string name="Checkout3">Lounge Chair</string>
+    <string name="Checkout4">Total</string>
+    <string name="Checkout5">Checkout</string>
+
+    <string name="Payment">Payment</string>
+    <string name="Payment2">1</string>
+    <string name="Payment3">Add notes</string>
+    <string name="Payment4">Add name &amp; address</string>
+    <string name="Payment5">Mr. Lorem Ipsum</string>
+    <string name="Payment6">2972 Westheimer Rd. Santa Ana, Illinois 85486 </string>
+    <string name="Payment7">Sending by</string>
+    <string name="Payment8">Choose Payment</string>
+    <string name="Payment9">Total</string>
+    <string name="Payment10">Pay now</string>
+
+    <string name="Payment_check">Payment Check</string>
+    <string name="Payment_check2">Successful payment</string>
+    <string name="Payment_check3">Back</string>
+
+    <string name="Profile">Profile</string>
+    <string name="Profile2">Brian Smith</string>
+    <string name="Profile3">joined since 2021</string>
+    <string name="Profile4">Account</string>
+    <string name="Profile5">Settings</string>
+    <string name="Profile6">Profile</string>
+    <string name="Profile7">Notification</string>
 </resources>

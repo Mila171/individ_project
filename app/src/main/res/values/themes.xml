@@ -13,4 +13,24 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="login">
+        <item name="color">@color/text_grey</item>
+        <item name="android:textSize">12dp</item>
+        <item name="font">@font/poppins_medium</item>
+    </style>
+
+    <style name="big">
+        <item name="color">@color/dark_grey</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">@font/poppins_semibold</item>
+    </style>
+
+    <style name="medium">
+        <item name="color">@color/dark_grey</item>
+        <item name="android:textSize">16dp</item>
+    </style>
 </resources>
+
