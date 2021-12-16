@@ -70,4 +70,13 @@
     <string name="Profile5">Settings</string>
     <string name="Profile6">Profile</string>
     <string name="Profile7">Notification</string>
+    <string name="skip">Skip</string>
+    <string name="login_to">Login to find thousand best Furniture</string>
+    <string name="email">Email</string>
+    <string name="emaill">Email</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="don_t_have_an_account">Don’t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
