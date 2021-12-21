@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individ_project">
         <activity
-            android:name=".HomeActivity"
+            android:name=".DiscountActivity"
             android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Register2Activity"
             android:exported="true" />
@@ -29,13 +38,7 @@
             android:exported="true" />
         <activity
             android:name=".IntroActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

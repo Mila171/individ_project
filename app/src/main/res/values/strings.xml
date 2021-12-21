@@ -79,4 +79,6 @@
     <string name="or_login_with">Or login with</string>
     <string name="don_t_have_an_account">Don’t have an account ?</string>
     <string name="sign_up">Sign Up</string>
+    <string name="home">Home</string>
+    <string name="card">Card</string>
 </resources>
