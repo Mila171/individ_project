@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individ_project">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
             android:name=".DiscountActivity"
             android:exported="true" />
         <activity
@@ -38,7 +50,7 @@
             android:exported="true" />
         <activity
             android:name=".IntroActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

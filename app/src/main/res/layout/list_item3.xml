@@ -5,19 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:layout_width="352dp"
-        android:layout_height="147dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="327dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/shape"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="129dp"
-            android:layout_height="129dp"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
             android:layout_margin="10dp"
-            app:cardCornerRadius="20dp">
+            app:cardCornerRadius="10dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -42,55 +43,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@string/product_place"
+                android:text="Dark Grey"
                 android:textColor="@color/grey"
                 android:textSize="12dp" />
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/star" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    app:srcCompat="@drawable/star" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    app:srcCompat="@drawable/star" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    app:srcCompat="@drawable/star" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    app:srcCompat="@drawable/star" />
-            </LinearLayout>
-
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="20dp "
-                android:layout_marginStart="10dp"
-                android:text="@string/product_price"
-                android:textColor="@color/blue_dark"
-                android:textSize="14dp" />
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/product_price"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginStart="80dp"
+                    app:srcCompat="@drawable/group_22" />
+            </LinearLayout>
 
         </LinearLayout>
 

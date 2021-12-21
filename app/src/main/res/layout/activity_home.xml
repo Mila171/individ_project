@@ -127,14 +127,32 @@
         app:layout_constraintTop_toBottomOf="@+id/tabLayout"
         tools:layout_editor_absoluteX="20dp" />
 
-    <androidx.recyclerview.widget.RecyclerView
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
         android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:listitem="@layout/list_item" />
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                tools:itemCount="10"
+                tools:listitem="@layout/list_item">
+
+            </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+    </HorizontalScrollView>
 
     <TextView
         android:id="@+id/textView7"
@@ -147,12 +165,17 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView"
         tools:layout_editor_absoluteX="20dp" />
-
-    <androidx.recyclerview.widget.RecyclerView
+    <ScrollView
         android:id="@+id/recyclerView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:listitem="@layout/list_item2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            tools:listitem="@layout/list_item2"
+            tools:itemCount="5"/>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
