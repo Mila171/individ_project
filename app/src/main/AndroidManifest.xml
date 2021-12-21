@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Register2Activity"
+            android:name=".PaymentCheckActivity"
             android:exported="true" />
         <activity
             android:name=".RegisterrActivity"

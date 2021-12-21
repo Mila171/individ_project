@@ -18,13 +18,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            app:srcCompat="@drawable/arrow___left_2" />
+            app:srcCompat="@drawable/arrow___left_2"
+            android:contentDescription="@string/left" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Detail"
+            android:text="@string/detail"
             android:textColor="@color/grey"
             android:textSize="16sp" />
 
@@ -33,7 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginEnd="40dp"
-            app:srcCompat="@drawable/heart" />
+            app:srcCompat="@drawable/heart"
+            android:contentDescription="@string/like" />
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.cardview.widget.CardView
@@ -49,7 +51,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/_25243_7" />
+            app:srcCompat="@drawable/_25243_7"
+            android:contentDescription="@string/photo" />
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
@@ -72,7 +75,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,14 +84,15 @@
                 android:layout_marginStart="15dp"
                 android:text="@string/product_name"
                 android:textColor="@color/dark_grey"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="140dp"
-                app:srcCompat="@drawable/group_22" />
+                app:srcCompat="@drawable/group_22"
+                android:contentDescription="@string/amount" />
         </LinearLayout>
 
         <TextView
@@ -126,19 +131,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/ellipse_8" />
+                app:srcCompat="@drawable/ellipse_8"
+                android:contentDescription="@string/black" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/ellipse_9" />
+                app:srcCompat="@drawable/ellipse_9"
+                android:contentDescription="@string/red" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/ellipse_10" />
+                app:srcCompat="@drawable/ellipse_10"
+                android:contentDescription="@string/grey" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,6 +160,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/add_to_card"
         android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shape3"

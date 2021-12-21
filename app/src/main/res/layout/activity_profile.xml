@@ -17,7 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            app:srcCompat="@drawable/arrow___left_2" />
+            app:srcCompat="@drawable/arrow___left_2"
+            android:contentDescription="@string/left" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,7 +45,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/man_388104_960_720" />
+                app:srcCompat="@drawable/man_388104_960_720"
+                android:contentDescription="@string/person" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -53,7 +55,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/Profile2"
             android:textColor="@color/dark_grey"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -61,7 +63,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Profile3"
             android:textColor="@color/dark_grey"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,69 +80,75 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Account"
+            android:text="@string/account"
             android:textColor="@color/dark_grey"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
     </LinearLayout>
 
@@ -158,89 +166,97 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Settings"
+            android:text="@string/settings"
             android:textColor="@color/dark_grey"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
     </LinearLayout>
 
@@ -260,47 +276,51 @@
             android:layout_height="wrap_content"
             android:text="@string/Profile"
             android:textColor="@color/dark_grey"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
     </LinearLayout>
 
@@ -318,49 +338,53 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Notification"
+            android:text="@string/notification"
             android:textColor="@color/dark_grey"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lorem ipsum"
+                android:text="@string/lorem_ipsum"
                 android:textColor="@color/dark_grey"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="280sp"
-                app:srcCompat="@drawable/stroke_1" />
+                app:srcCompat="@drawable/stroke_1"
+                android:contentDescription="@string/right" />
         </LinearLayout>
     </LinearLayout>
     <include

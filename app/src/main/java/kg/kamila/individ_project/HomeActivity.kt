@@ -20,9 +20,14 @@ class HomeActivity : AppCompatActivity() {
                         startActivity(Intent(this@HomeActivity, HomeActivity::class.java))
                     }
                     R.id.discount -> {
-                        startActivity(Intent(this@HomeActivity, Intro2Activity::class.java))
+                        startActivity(Intent(this@HomeActivity, DiscountActivity::class.java))
                     }
-
+                    R.id.card -> {
+                        startActivity(Intent(this@HomeActivity, CardActivity::class.java))
+                    }
+                    R.id.profile -> {
+                        startActivity(Intent(this@HomeActivity, ProfileActivity::class.java))
+                    }
 
             }
         }

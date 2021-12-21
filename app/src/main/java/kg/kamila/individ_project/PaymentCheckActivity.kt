@@ -3,18 +3,18 @@ package kg.kamila.individ_project
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kg.kamila.individ_project.databinding.ActivityLoginBinding
 import kg.kamila.individ_project.databinding.ActivityPaymentBinding
+import kg.kamila.individ_project.databinding.ActivityPaymentCheckBinding
 
-class LoginActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityLoginBinding
+class PaymentCheckActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityPaymentCheckBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_payment_check)
 
-        binding= ActivityLoginBinding.inflate(layoutInflater)
+        binding= ActivityPaymentCheckBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.login.setOnClickListener{
+        binding.back.setOnClickListener{
             startActivity(Intent(this,HomeActivity::class.java))
         }
     }

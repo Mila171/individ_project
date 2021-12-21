@@ -17,7 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            app:srcCompat="@drawable/arrow___left_2" />
+            app:srcCompat="@drawable/arrow___left_2"
+            android:contentDescription="@string/left" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -90,7 +91,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="JNE"
+            android:text="@string/jne"
             android:textColor="@color/dark_grey"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -98,7 +99,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="120$"
+            android:text="@string/_120"
             android:textColor="@color/dark_grey"
             android:textSize="12sp" />
 
@@ -126,52 +127,62 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_31__3_" />
+            app:srcCompat="@drawable/frame_31__3_"
+            android:contentDescription="@string/dana" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_32" />
+            app:srcCompat="@drawable/frame_32"
+            android:contentDescription="@string/ovo" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_33" />
+            app:srcCompat="@drawable/frame_33"
+            android:contentDescription="@string/gopay" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_31" />
+            app:srcCompat="@drawable/frame_31"
+            android:contentDescription="@string/bca" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_32__1_" />
+            app:srcCompat="@drawable/frame_32__1_"
+            android:contentDescription="@string/bni" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_33__1_" />
+            app:srcCompat="@drawable/frame_33__1_"
+            android:contentDescription="@string/bank_bri" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_31__1_" />
+            app:srcCompat="@drawable/frame_31__1_"
+            android:contentDescription="@string/visa" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_32__2_" />
+            app:srcCompat="@drawable/frame_32__2_"
+            android:contentDescription="@string/mastercard" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_31__2_" />
+            app:srcCompat="@drawable/frame_31__2_"
+            android:contentDescription="@string/jnt_maret" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_32__3_" />
+            app:srcCompat="@drawable/frame_32__3_"
+            android:contentDescription="@string/alfamart" />
     </GridLayout>
 
     <LinearLayout
@@ -189,7 +200,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:text="Total"
+            android:text="@string/total"
             android:textColor="@color/dark_grey"/>
 
         <TextView
@@ -203,6 +214,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/pay_now"
         android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

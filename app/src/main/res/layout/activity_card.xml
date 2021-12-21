@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:text="Selected Item"
+            android:text="@string/selected_item"
             android:textColor="@color/dark_grey"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -110,7 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:text="Total" />
+                android:text="@string/total" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -123,6 +123,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/checkout"
             android:layout_width="354dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
