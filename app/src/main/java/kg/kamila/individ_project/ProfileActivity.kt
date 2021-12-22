@@ -13,25 +13,30 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_profile)
-        val nav = findViewById<BottomNavigationView>(R.id.nav)
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.nav)
 
-        nav.setOnNavigationItemReselectedListener {
-            when (it.itemId) {
-                R.id.home -> {
-                    startActivity(Intent(this@ProfileActivity, HomeActivity::class.java))
+        val mOnNavigationItemSelectedListener =
+            BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
+                when (menuItem.itemId) {
+                    R.id.home -> {
+                        startActivity(Intent(this, HomeActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
+                    }
+                    R.id.discount -> {
+                        startActivity(Intent(this, DiscountActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
+                    }
+                    R.id.card -> {
+                        startActivity(Intent(this, CardActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
+                    }
+                    R.id.profile -> {
+                        startActivity(Intent(this, ProfileActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
+                    }
                 }
-                R.id.discount -> {
-                    startActivity(Intent(this@ProfileActivity, DiscountActivity::class.java))
-                }
-                R.id.card -> {
-                    startActivity(Intent(this@ProfileActivity, CardActivity::class.java))
-                }
-                R.id.profile -> {
-                    startActivity(Intent(this@ProfileActivity, ProfileActivity::class.java))
-                }
-
+                false
             }
-        }
-
+        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 }

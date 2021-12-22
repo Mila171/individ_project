@@ -12,26 +12,31 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val nav = findViewById<BottomNavigationView>(R.id.nav)
 
-            nav.setOnNavigationItemReselectedListener {
-                when (it.itemId) {
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.nav)
+
+        val mOnNavigationItemSelectedListener =
+            BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
+                when (menuItem.itemId) {
                     R.id.home -> {
-                        startActivity(Intent(this@HomeActivity, HomeActivity::class.java))
+                        startActivity(Intent(this, HomeActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
                     }
                     R.id.discount -> {
-                        startActivity(Intent(this@HomeActivity, DiscountActivity::class.java))
+                        startActivity(Intent(this, DiscountActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
                     }
                     R.id.card -> {
-                        startActivity(Intent(this@HomeActivity, CardActivity::class.java))
+                        startActivity(Intent(this, CardActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
                     }
                     R.id.profile -> {
-                        startActivity(Intent(this@HomeActivity, ProfileActivity::class.java))
+                        startActivity(Intent(this, ProfileActivity::class.java))
+                        return@OnNavigationItemSelectedListener true
                     }
-
+                }
+                false
             }
-        }
-
-
+        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 }
